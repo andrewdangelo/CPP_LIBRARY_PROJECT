@@ -1,6 +1,7 @@
 #ifndef CD_H
 #define CD_H
 
+//test
 #include <string>
 #include "libraryItem.h"
 
@@ -13,7 +14,7 @@ class CD : public LibrayItem
         string artist;
         int songs;
     public:
-        CD(int id, string name, string genre, int songs) : LibraryItem(int id, string name, string genre);
+        CD(int id, string name, string genre, int songs) : LibraryItem(id, name, genre);
 
         string getArtist() const;
 
